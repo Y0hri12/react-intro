@@ -4,14 +4,16 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import StateParent from './components/StateParent';
-import EventPoint from './components/EventPoint';
+// import EventPoint from './components/EventPoint';
+// import StateForm from './components/StateForm';
+import StateFormUC from './components/StateFormUC';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <EventPoint />
+    <StateFormUC />
   </React.StrictMode>
 );
 
