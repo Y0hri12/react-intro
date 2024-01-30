@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": ["source.addMissingImports"],
+  "workbench.colorTheme": "Ayu Dark Bordered"
+}
