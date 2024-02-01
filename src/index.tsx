@@ -7,14 +7,15 @@ import StateParent from './components/StateParent';
 // import EventPoint from './components/EventPoint';
 // import StateForm from './components/StateForm';
 // import StateFormUC from './components/StateFormUC';
-import FormTextarea from './components/FormTextarea';
+// import FormTextarea from './components/FormTextarea';
+import FormSelect from './components/FormSelect';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormTextarea />
+    <FormSelect />
   </React.StrictMode>
 );
 
