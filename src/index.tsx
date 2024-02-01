@@ -6,14 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import StateParent from './components/StateParent';
 // import EventPoint from './components/EventPoint';
 // import StateForm from './components/StateForm';
-import StateFormUC from './components/StateFormUC';
+// import StateFormUC from './components/StateFormUC';
+import FormTextarea from './components/FormTextarea';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <StateFormUC />
+    <FormTextarea />
   </React.StrictMode>
 );
 
