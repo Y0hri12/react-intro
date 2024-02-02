@@ -9,14 +9,15 @@ import StateParent from './components/StateParent';
 // import StateFormUC from './components/StateFormUC';
 // import FormTextarea from './components/FormTextarea';
 // import FormSelect from './components/FormSelect';
-import FormList from './components/FormList';
+// import FormList from './components/FormList';
+import FormRadio from './components/FormRadio';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormList />
+    <FormRadio />
   </React.StrictMode>
 );
 
