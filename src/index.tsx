@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import StateParent from './components/StateParent';
+// import StateParent from './components/StateParent';
 // import EventPoint from './components/EventPoint';
 // import StateForm from './components/StateForm';
 // import StateFormUC from './components/StateFormUC';
@@ -12,14 +12,15 @@ import StateParent from './components/StateParent';
 // import FormList from './components/FormList';
 // import FormRadio from './components/FormRadio';
 // import FormCheck from './components/FormCheck';
-import FormCheckMulti from './components/FormCheckMulti';
+// import FormCheckMulti from './components/FormCheckMulti';
+import FormFile from './components/FormFile';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormCheckMulti />
+    <FormFile />
   </React.StrictMode>
 );
 
