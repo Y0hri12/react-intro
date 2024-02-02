@@ -8,14 +8,15 @@ import StateParent from './components/StateParent';
 // import StateForm from './components/StateForm';
 // import StateFormUC from './components/StateFormUC';
 // import FormTextarea from './components/FormTextarea';
-import FormSelect from './components/FormSelect';
+// import FormSelect from './components/FormSelect';
+import FormList from './components/FormList';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormSelect />
+    <FormList />
   </React.StrictMode>
 );
 
