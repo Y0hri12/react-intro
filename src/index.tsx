@@ -11,14 +11,15 @@ import StateParent from './components/StateParent';
 // import FormSelect from './components/FormSelect';
 // import FormList from './components/FormList';
 // import FormRadio from './components/FormRadio';
-import FormCheck from './components/FormCheck';
+// import FormCheck from './components/FormCheck';
+import FormCheckMulti from './components/FormCheckMulti';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormCheck />
+    <FormCheckMulti />
   </React.StrictMode>
 );
 
