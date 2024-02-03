@@ -13,14 +13,17 @@ import reportWebVitals from './reportWebVitals';
 // import FormRadio from './components/FormRadio';
 // import FormCheck from './components/FormCheck';
 // import FormCheckMulti from './components/FormCheckMulti';
-import FormFile from './components/FormFile';
+// import FormFile from './components/FormFile';
+// import StateNest from './components/StateNest';
+// import StateNestImmer from './components/StateNestImmer';
+import StateNestImmer2 from './components/StateNestImmer2';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FormFile />
+    <StateNestImmer2 />
   </React.StrictMode>
 );
 
